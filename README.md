@@ -21,7 +21,7 @@ Users be able to see optimal layout depending on their screensize
 
 ### Screenshot
 
-![desktop sreenshot for complete project](./desktop%20srceenshot.png)
+![desktop sreenshot for complete project](./desktop-screenshot.png)
 
 ### Links
 

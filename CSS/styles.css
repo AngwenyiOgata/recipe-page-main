@@ -2,11 +2,11 @@
 
 @font-face {
   font-family: 'outfit';
-  src: url(../assets/fonts/outfit/Outfit-VariableFont_wght.ttf) format(tff);
+  src: url(../assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
 }
 @font-face {
   font-family: 'YoungSerif';
-  src: url(../assets/fonts/young-serif/YoungSerif-Regular.ttf) format(tff);
+  src: url(../assets/fonts/young-serif/YoungSerif-Regular.ttf);
 }
 :root {
   --Nutmeg: hsl(14, 45%, 36%);
