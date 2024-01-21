@@ -1,9 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&family=Young+Serif&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&family=Young+Serif&display=swap'); */
 
+@font-face {
+  font-family: 'outfit';
+  src: url(../assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: 'YoungSerif';
+  src: url(../assets/fonts/young-serif/YoungSerif-Regular.ttf);
+}
 :root {
-  --font-body: 'Outfit', sans-serif;
-  --font-heads: 'Young Serif', serif;
-
   --Nutmeg: hsl(14, 45%, 36%);
   --Dark-Raspberry: hsl(332, 51%, 32%);
 
@@ -14,7 +19,6 @@
   --Wenge-Brown: hsl(30, 10%, 34%);
   --Dark-Charcoal: hsl(24, 5%, 18%);
 }
-
 *,
 *::before,
 *::after {
@@ -28,13 +32,13 @@ img {
   display: block;
 }
 body {
-  font-family: var(--font-body);
   margin: 0 auto;
   width: 100%;
+  font-family: outfit;
 }
 h1,
 h2 {
-  font-family: var(--font-heads);
+  font-family: YoungSerif, serif;
   font-weight: 400;
 }
 h2 {
@@ -91,7 +95,7 @@ h2 {
   padding: 1.5rem 2rem;
   margin-bottom: 1rem;
 }
-.app__main-prep h3 {
+.app__main-prep h2 {
   font-size: 1.2rem;
   line-height: 1.6rem;
   margin-bottom: 0.6rem;
