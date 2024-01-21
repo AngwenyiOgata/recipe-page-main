@@ -43,4 +43,4 @@ write more code for responsive projects
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@AngwenyiOgata](https://www.frontendmentor.io/profile/AngwenyiOgata)
